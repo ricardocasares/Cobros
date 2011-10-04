@@ -1,0 +1,34 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/dd_valid.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* common styling */
+.menu { width:100%; position:relative;  z-index:100;}
+.menu ul li a, .menu ul li a:visited {display:block; padding:5px; text-decoration:none; width:120px; height:20px; text-align:left; color:#666; background:#EEE; line-height:20px; font-size:12px; overflow:hidden;}
+.menu ul li a { border:1px solid #EEE; }
+.menu ul li a.active, .menu ul li ul li a.active { color: #000 !important; background: #CCC !important; border-color: #CCC !important; }
+.menu ul li ul li a { padding:5px; border:0; border-left: 1px solid #CCC; border-right: 1px solid #CCC; }
+.menu ul li ul li ul li:first-child a { border-top: 1px solid #CCC; }
+.menu ul li ul li:last-child a { border-bottom: 1px solid #CCC; }
+.menu ul li a img { vertical-align:sub; }
+.menu ul {padding:0; margin:0; list-style: none;}
+.menu ul li {float:left; position:relative;}
+.menu ul li ul {display: none; padding-top:11px; z-index:1; }
+
+/* specific to non IE browsers */
+.menu ul li:hover a {color:#666; background:#EEE; }
+.menu ul li:hover ul {display:block; position:absolute; top:21px; left:0; width:105px;}
+.menu ul li:hover ul li a.hide {background:#6a3; color:#fff;}
+.menu ul li:hover ul li:hover a.hide {background:#06c; color:#000;}
+.menu ul li:hover ul li ul {display: none;}
+.menu ul li:hover ul li a {display:block; background:#EEE; color:#666;}
+.menu ul li:hover ul li a:hover {background:#06c; color:#FFF; border-color: #06c; }
+.menu ul li:hover ul li:hover ul {display:block; position:absolute; left:105px; top:0;}
+.menu ul li:hover ul li:hover ul li ul {display:none;}
+.menu ul li:hover ul li ul li:hover ul {display:block;}
+.menu ul li:hover ul li:hover ul.left {left:-105px;}

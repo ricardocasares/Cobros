@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /dante/
+RewriteCond $1 !^(index\.php|static)
+RewriteRule ^(.*)$ index.php/$1 [L]

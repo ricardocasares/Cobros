@@ -1,0 +1,331 @@
+﻿/* @import url(http://fonts.googleapis.com/css?family=Droid+Sans); */
+body { font-size:85%; color: #333; margin:0; padding:0; font-family: 'Droid Sans', Verdana, sans-serif; }
+#doc3 { margin:auto; }
+div#hd { background:#EEE; padding: 0 10px; border-top:8px solid #222; border-bottom: 1px solid #CCC; }
+div#ft { background:#333; height:18px; color:#FFF;}
+div#content { background:#FFF; height:200px;}
+div.pad { padding:10px; }
+
+.pagination {
+	text-align: center;
+	margin-bottom:10px;
+	font-size: 11px;
+}
+
+strong.resaltado {
+	background: #FFC;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.pagination a {
+	padding: 5px 10px;
+	background: #DDD;
+	color: #333;
+}
+
+.pagination strong {
+	padding: 5px 10px;
+	background: #06c;
+	color: #FFF;
+	font-weight:normal;
+}
+
+strong { font-weight:bold; }
+p { margin:5px 0 20px 0; }
+hr { border-top: 1px solid #DDD; border-bottom:0; }
+h2 {
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    font-size: 18px;
+    font-family: 'Droid Sans', Arial, Verdana, sans-serif;
+    line-height: 15px;
+	margin-top:10px;
+	border-bottom: 5px solid #EEE;
+	padding-bottom: 10px;
+	font-weight:bold;
+}
+h2 span { font-size:77%; }
+h2 span a { border:0; }
+h2,h3,h4 { margin:5px 0 5px 0; color: #666;}
+h2 span, h3 span, h4 span {float:right; color: #999; text-transform:lowercase; font-weight:100;}
+h4 {
+	color:#000;
+	text-transform: none;
+	font-weight: bold;
+	margin:0;
+}
+
+h3.slide {
+	padding:10px;
+	padding-left:30px;
+	display:block;
+	cursor:pointer;
+	background: #EEE url(../img/icon/indent_increase.png) no-repeat 4px;
+}
+
+h3.slide:hover { 
+	background-color: #06c;
+	color: #FFF;
+}
+
+a { color: #06c; text-decoration:none; }
+table { margin:0; margin-bottom:30px; padding:0; width:100%; }
+table td, table th { margin:0; padding:5px 0; }
+th { border-bottom: 4px solid #DDD; font-weight:600; }
+td { border-bottom:1px solid #DDD; }
+td a { border:0; }
+tr > th { background: #FFF; }
+tr:hover { background: #EEE; }
+tr > td.hide { display:none; }
+dt {
+	float: left;
+	clear: left;
+	padding:5px 0;
+	font-weight:bold;
+}
+
+dd {
+	padding:5px 0;
+	text-align:right;
+	border-bottom:1px solid #EEE;
+}
+
+dd:hover { background: #FFc;}
+
+a:hover { 
+	color: #666;
+	border-color: #666;
+}
+
+table#charts th, table#charts td { 
+	border:0;
+	text-align:center;
+	font-weight:normal;
+}
+
+table#charts th {
+	padding:0;
+	padding-top:20px;
+}
+
+table#charts td {
+	padding-bottom:40px;
+}
+
+ul.user {
+	float:right;
+}
+
+/* NOTIFICATIONS */
+span.ferror {
+	color: red;
+	display:block;
+	font-size:11px;
+	margin-bottom:10px;
+}
+
+div.success, div.error, div.notice {
+	position:relative;
+	top:0;
+	padding: 15px 0;
+	display:block;
+	padding-left:30px;
+	font-size:11px;
+	color: #000;
+}
+div.success {
+	background: #D6F8C7 url(../img/icon/checkmark.png) no-repeat 10px;
+}
+div.error {
+	background: #FFE4CC url(../img/icon/delete.png) no-repeat 10px;
+}
+
+div.notice {
+	background: #FFC url(../img/icon/attention.png) no-repeat 10px;
+}
+
+#filtros {
+	background: #EEE;
+	padding:10px;
+	border: 1px solid #DDD;
+	margin-bottom:10px;
+}	
+
+#filtros div.selects
+{
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+#filtros img {
+	vertical-align:middle;
+}
+#filtros input, #filtros select {
+	font-size:11px;
+	margin-right:12px;
+	font-family: Verdana, sans-serif;
+	width:50px;
+	padding:5px;
+}
+
+#filtros input.f {
+	width:200px;
+}
+
+#filtros select {
+	background:#EEE;
+	border:0;
+	font-family: Verdana, sans-serif;
+	width:110px;
+	height:24px;
+}
+
+#filtros input[type=submit], #filtros button {
+	font-size: 11px;
+	padding:6px 15px;
+	width:auto;
+	background: #333;
+	color: #FFF;
+	float:right;
+	margin-right:5px;
+	font-weight:bold;
+	border:0;
+	border-radius:5px;
+	font-family: Verdana, sans-serif;
+}
+
+#filtros input[type=submit]:hover, #filtros button:hover, span#b a:hover {
+	background: #06c;
+}
+
+#filtros button {
+	padding-left:10px;
+	font-family: Verdana, sans-serif;
+}
+
+#filtros a {
+	font-size:11px;
+}
+
+button img {
+	padding-right:5px;
+}
+
+#filtros select {
+	width:100px;
+	font-size:12px;
+	padding:4px;
+	padding-left:0;
+	font-family: 'Droid Sans', Verdana, sans-serif;
+}
+
+div.scroll {
+	max-width:330px;
+	margin:0 auto;
+	overflow:auto;
+}
+
+/* FORMS */
+#login {
+	width:275px;
+	position:absolute;
+	left:40%;
+	top:20%;
+	margin: 0 auto ;
+}
+.forms label {
+	display:block;
+	margin-bottom:5px;
+	font-size:11px;
+	color: #000;
+	font-weight:600;
+}
+
+.forms input, .forms select { 
+	margin-bottom:15px;
+}
+
+input.small {
+	padding:5px !important;
+	font-size:11px !important;
+	width:30px !important;
+	margin-right:5px;
+}
+
+input[readonly] { 
+	background: #EEE; 
+	color: #555; 
+	border: 1px solid #CCC;
+}
+
+input[readonly]:focus { 
+	background: #EEE; 
+	color: #555; 
+	border: 1px solid #CCC;
+}
+
+input[type=text],input[type=password],textarea,select { 
+	padding:10px; 
+	font-size:14px;
+	width:250px;
+	border: 1px solid #DDD;
+}
+
+textarea {
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+input:focus,textarea:focus { 
+	background: #FFC;
+	border:1px solid #fff5ce;
+}
+
+.button:hover, input[type=submit]:hover, input[type=reset]:hover {
+	background: #06c;
+	color:#FFF !important;
+	display:inline;
+}
+.button, input[type=submit], input[type=reset] {
+	background: #06c;
+	color: #FFF;
+	border:0;
+	padding:10px 20px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	display:inline;
+	font-size:11px;
+	font-weight:600;
+	margin-right: 30px;
+	font-family: 'Droid Sans', Verdana;
+}
+
+.radios { padding: 14px 0; }
+
+.radios label { display:inline; font-weight:normal;}
+
+input[type=submit]:hover {
+	background: green;
+	cursor: pointer;
+}
+
+input[type=reset]:hover {
+	background: red;
+}
+
+input[type=radio], input[type=checkbox] {
+	display:inline;
+}
+
+input[disabled] {
+	border: 1px solid #DDD;
+	background: #EEE;
+	color: #666;
+}
+
+input[disabled]:hover {
+	background: #EEE;
+	color: #666 !important;
+}
