@@ -42,9 +42,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'a.db.shared.orchestra.io';
-$db['default']['username'] = 'user_4e8c2cfc';
-$db['default']['password'] = 'fBEh0yNA)_mA.A';
-$db['default']['database'] = 'db_4e8c2cfc';
+$db['default']['username'] = 'user_aa4fac6f';
+$db['default']['password'] = 'jCc-v!lr-&pgap';
+$db['default']['database'] = 'db_aa4fac6f';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
