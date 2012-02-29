@@ -41,10 +41,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '1234';
-$db['default']['database'] = 'dante';
+$db['default']['hostname'] = 'a.db.shared.orchestra.io';
+$db['default']['username'] = 'user_4e8c2cfc';
+$db['default']['password'] = 'fBEh0yNA)_mA.A';
+$db['default']['database'] = 'db_4e8c2cfc';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
